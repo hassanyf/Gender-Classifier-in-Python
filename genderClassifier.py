@@ -10,6 +10,7 @@ clf = tree.DecisionTreeClassifier()
 
 clf = clf.fit(X,Y)
 
+# predict a gender by inputting a new data of body metrics
 prediction = clf.predict([[190,70,43]])
 
 print prediction
